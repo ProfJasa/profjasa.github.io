@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Aula 04/03</title>
+</head>
+<body>
+        <div class="content">
+            <h1>Calculadora</h1>
+            <input type="number" name="numberOne" id="numberOne" placeholder="1° número" required />
+            <input type="number" name="numberTwo" id="numberTwo" placeholder="2° número" required />
+            <div class="contentCheck">
+                <input type="button" name="button" id="button" value="Somar" onclick="calculadora()" />
+                <input type="button" name="button" id="button" value="Subtrair" onclick="calculadora()" />
+                <input type="button" name="button" id="button" value="Multiplicar" onclick="calculadora()" />
+                <input type="button" name="button" id="button" value="Dividir" onclick="calculadora()" />
+            </div>
+            <h2 id="result">Resultado</h2>
+        </div>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
